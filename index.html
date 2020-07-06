@@ -12,12 +12,48 @@
     </style>
 </head>
 <body>
-    <nav class="nav justify-content-end bg-dark">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light text-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+    <!-- <nav class="nav justify-content-end bg-dark">
         <a class="nav-item nav-link text-light" href="#">Active</a>
         <a class="nav-item nav-link text-light" href="#">Much longer nav link</a>
         <a class="nav-item nav-link text-light" href="#">Link</a>
         <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-    </nav>
+    </nav> -->
 
     <!-- <ul class="nav nav-pills nav-fill">
         <li class="nav-item">
@@ -98,7 +134,7 @@
 
         <h1>Card deck</h1>
 
-        <div class="card-deck w-75 justify-content-center">
+        <div class="card-deck w-75 mx-auto">
             <div class="card">
                 <img class="card-img-top" src="images/volcano-brown.jpg" alt="">
                 <div class="card-body">
@@ -136,6 +172,25 @@
                 </div>
             </div>
         </div>
+
+        <h1>Grid</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore possimus aliquid dolorum culpa officiis, repellat, facilis molestiae vero et ratione in, velit ea sint quod? Tenetur molestias officia assumenda quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vel beatae praesentium fuga maxime odit molestiae error autem repellat quae? Tenetur sint fugit at quas illum pariatur eius esse a.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore possimus aliquid dolorum culpa officiis, repellat, facilis molestiae vero et ratione in, velit ea sint quod? Tenetur molestias officia assumenda quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Est perferendis dolor maiores nihil in nostrum. Perspiciatis laboriosam consectetur culpa sit mollitia porro quidem esse delectus. Atque pariatur unde perspiciatis blanditiis.</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore possimus aliquid dolorum culpa officiis, repellat, facilis molestiae vero et ratione in, velit ea sint quod? Tenetur molestias officia assumenda quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto, incidunt in cum saepe vel, vero nihil quod aliquam ullam inventore illum perferendis aut veniam ipsum non temporibus, nemo commodi?</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore possimus aliquid dolorum culpa officiis, repellat, facilis molestiae vero et ratione in, velit ea sint quod? Tenetur molestias officia assumenda quod? Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum culpa enim ex eius ad nobis rerum est beatae voluptatum eum odio asperiores, illum nisi iste. Ratione earum ea recusandae est?</p>
+            </div>
+          </div>
+        </div>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
